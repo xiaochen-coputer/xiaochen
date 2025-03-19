@@ -1,0 +1,6 @@
+a=open('ga','w')
+a.write('aaaaa')
+a.close()
+c=open('ga','r')
+char=c.read(10)
+print(char)
