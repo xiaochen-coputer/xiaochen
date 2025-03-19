@@ -1,0 +1,3 @@
+aaaaa
+pics = ['街道.webp','商店.jpg','学校.jpg','教室.jpg','食堂.jpg','走廊.jpg','宿舍男.jpg','世贸.jpg']#将图片都输入进去
+# 将pics里面的图片写到 image.py 中

@@ -1,0 +1,256 @@
+ if anniu_yue.peng(pos_x, pos_y) or f_yueli:
+            screen.blit(tian_kong, (0, 0))
+            if jiajing > 500:
+                bcd(screen, '你很喜欢这首曲子', (50, 300))
+                bcd(screen, '乐理+++', (50, 200))
+
+            if jiajing < 250:
+                bcd(screen, '没有什么好的乐器', (50, 300))
+                bcd(screen, '乐理+', (50, 200))
+
+            if 250 <= jiajing < 500:
+                bcd(screen, '妈妈心情好给你买了几本书', (50, 300))
+                bcd(screen, '乐理++', (50, 200))
+
+            if anniu_yue.peng(pos_x, pos_y):
+                f_yueli = True
+
+            else:
+                if jiajing < 250:
+                    yueli = yueli + xiao_yu_1
+
+                elif 500 >= jiajing >= 250:
+                    yueli += xiao_yu_2
+                else:
+                    yueli += (xiao_yu_2+1)
+
+                time_ri += 1
+                pos_x = 0
+                pos_y = 0
+                f_yueli = False
+                anniu_shimao.peng(pos_x,pos_y
+
+
+ if anniu_shimao.peng(pos_x,pos_y) or f_shimao:
+            if time_nian < 18:
+                screen.blit(tian_kong,(0,0))
+                bcd(screen, '你未满18岁被赶出去了', (100, 200),50)
+                if anniu_shimao.peng(pos_x,pos_y):
+                    f_shimao=True
+                else:
+                    pos_x = 0
+                    pos_y = 0
+                    f_shimao=False
+
+小熊布偶  股价 : '+str(sui_a), (50, 100), 35, white)
+        bcd(screen, '天趣科技  股价 : '+str(sui_b), (50, 200), 35, white)
+        bcd(screen, '宝娃子不锈钢  股价 : '+str(sui_c), (50, 300), 35, white)
+        bcd(screen, '豪爵摩托  股价 : '+str(sui_d), (50, 400), 35, white)
+        bcd(screen, '开罗  股价 : '+str(sui_f), (50, 500), 35, white)
+        bcd(screen, '旭升传媒  股价 : ' +str(sui_e), (500, 100), 35, white)
+        bcd(screen, '川东水泥  股价 : ' +str(sui_f), (500, 200), 35, white)
+        bcd(screen, '民生医院  股价 : ' +str(sui_g), (500, 300), 35, white)
+        bcd(screen, '繁华街市  股价 : ' +str(sui_h), (500, 400), 35, white)
+        bcd(screen, '泽川工厂  股价 : ' +str(sui_i), (500, 500), 35, white)
+        anniu_jian(ann)
+
+
+def tougu(anniu,f,money,gu,money_2=money_now,x=pos_x,y=pos_y,):
+    if anniu.peng(x,y) or f :
+        screen.bilt(gupiao_tu,(0,0))
+        if anniu.peng(x,y):
+            f=True
+        else:
+            if money<money_2:
+                gu+=1
+                money_2-=money
+            pos_x=0
+            pos_y=0
+            f=False
+                if ditu_5:
+        if t_99:
+            screen.blit(gupiao_tu,(0,0))
+            bcd(screen, '小熊布偶  股价 : '+str(sui_a), (50, 10), 30, white)
+            bcd(screen, '天趣科技  股价 : '+str(sui_b), (50, 80), 30, white)
+            bcd(screen, '宝娃子不锈钢  股价 : '+str(sui_c), (50, 160), 30, white)
+            bcd(screen, '豪爵摩托  股价 : '+str(sui_d), (50, 240), 30, white)
+            bcd(screen, '开罗  股价 : '+str(sui_e), (50, 320), 30, white)
+            bcd(screen, '旭升传媒  股价 : ' +str(sui_f), (500, 10), 30, white)
+            bcd(screen, '川东水泥  股价 : ' +str(sui_g), (500, 80), 30, white)
+            bcd(screen, '民生医院  股价 : ' +str(sui_h), (500, 160), 30, white)
+            bcd(screen, '繁华街市  股价 : ' +str(sui_i), (500, 240), 30, white)
+            bcd(screen, '泽川工厂  股价 : ' +str(sui_j), (500, 320), 30, white)
+            anniu_jian(anniu_ji_gou)
+            anniu_jian(anniu_huijia)
+
+
+        if  anniu_ji_gou.peng(pos_x,pos_y) or f_100:
+            screen.blit(gupiao_tu, (0, 0))
+            t_99=False
+            f_100=True
+
+            anniu_jian(anniu_ji_a)
+            anniu_jian(anniu_ji_b)
+            anniu_jian(anniu_ji_c)
+            anniu_jian(anniu_ji_d)
+            anniu_jian(anniu_ji_e)
+            anniu_jian(anniu_ji_f)
+            anniu_jian(anniu_ji_g)
+            anniu_jian(anniu_ji_h)
+            anniu_jian(anniu_ji_i)
+            anniu_jian(anniu_ji_j)
+            anniu_jian(anniu_huijia)
+            if anniu_huijia.peng(pos_x,pos_y):
+                f_100=False
+def tougu(anniu,f,money,gu,money_2=money_now,x=pos_x,y=pos_y,):
+    if anniu.peng(x,y) or f :
+        screen.bilt(gupiao_tu,(0,0))
+        if anniu.peng(x,y):
+            f=True
+        else:
+            if money<money_2:
+                gu+=1
+                money_2-=money
+            pos_x=0
+            pos_y=0
+            f=False
+
+                        if anniu_ji_mai.peng(pos_x, pos_y):
+                f_100 = True
+                t_99 = False
+
+            anniu_jian(anniu_ji_a)
+            anniu_jian(anniu_ji_b)
+            anniu_jian(anniu_ji_c)
+            anniu_jian(anniu_ji_d)
+            anniu_jian(anniu_ji_e)
+            anniu_jian(anniu_ji_f)
+            anniu_jian(anniu_ji_g)
+            anniu_jian(anniu_ji_h)
+            anniu_jian(anniu_ji_i)
+            anniu_jian(anniu_ji_j)
+            bcd(screen, '持股 :' + str(gu_a), (250, 50), 30, white)
+            bcd(screen, '持股 :' + str(gu_b), (250, 150), 30, white)
+            bcd(screen, '持股 :' + str(gu_c), (250, 250), 30, white)
+            bcd(screen, '持股 :' + str(gu_d), (250, 350), 30, white)
+            bcd(screen, '持股 :' + str(gu_e), (250, 450), 30, white)
+            bcd(screen, '持股 :' + str(gu_f), (700, 50), 30, white)
+            bcd(screen, '持股 :' + str(gu_g), (700, 150), 30, white)
+            bcd(screen, '持股 :' + str(gu_h), (700, 250), 30, white)
+            bcd(screen, '持股 :' + str(gu_i), (700, 350), 30, white)
+            bcd(screen, '持股 :' + str(gu_j), (700, 450), 30, white)
+
+
+
+            anniu_jian(anniu_huijia_3)
+
+            if anniu_ji_a.peng(pos_x,pos_y) or f_gu:
+                print('a')
+                f_gu=True
+                if anniu_ji_a.peng(pos_x,pos_y):
+                    if  gu_a>0:
+                        gu_a -= 1
+                        print(gu_a)
+                        money_now += sui_a
+                    pos_x = 0
+                    pos_y = 0
+
+                    f_gu = False
+            if anniu_ji_b.peng(pos_x,pos_y) or f_gu:
+
+                    f_gu = True
+
+                    if gu_b>0:
+                        gu_b -= 1
+                        money_now += sui_b
+                    pos_x = 0
+                    pos_y = 0
+                    f_gu = False
+
+            if anniu_ji_c.peng(pos_x,pos_y) or f_gu:
+
+                    f_gu = True
+
+                    if gu_c>0:
+                        gu_c -= 1
+                        money_now -= sui_c
+                    pos_x = 0
+                    pos_y = 0
+                    f_gu = False
+
+            if anniu_ji_d.peng(pos_x,pos_y) or f_gu:
+
+                    f_gu = True
+
+                    if gu_d>0:
+                        gu_d -= 1
+                        money_now += sui_d
+                    pos_x = 0
+                    pos_y = 0
+                    f_gu = False
+
+            if anniu_ji_e.peng(pos_x,pos_y) or f_gu:
+
+                    f_gu = True
+
+                    if gu_e>0:
+                        gu_e -= 1
+                        money_now += sui_e
+                    pos_x = 0
+                    pos_y = 0
+                    f_gu = False
+
+            if anniu_ji_f.peng(pos_x,pos_y) or f_gu:
+
+                    f_gu = True
+
+                    if gu_f>0:
+                        gu_f -= 1
+                        money_now += sui_f
+                    pos_x = 0
+                    pos_y = 0
+                    f_gu = False
+
+            if anniu_ji_g.peng(pos_x,pos_y) or f_gu:
+
+                    f_gu = True
+
+                    if gu_g>0:
+                        gu_g -= 1
+                        money_now += sui_g
+                    pos_x = 0
+                    pos_y = 0
+                    f_gu = False
+
+            if anniu_ji_h.peng(pos_x,pos_y) or f_gu:
+
+                    f_gu = True
+
+                    if gu_h>0:
+                        gu_h -= 1
+                        money_now += sui_h
+                    pos_x = 0
+                    pos_y = 0
+                    f_gu = False
+
+            if anniu_ji_j.peng(pos_x,pos_y) or f_gu:
+
+                    f_gu = True
+
+                    if gu_j>0:
+                        gu_j -= 1
+                        money_now += sui_j
+                    pos_x = 0
+                    pos_y = 0
+                    f_gu = False
+
+            if anniu_ji_i.peng(pos_x,pos_y) or f_gu:
+
+                    f_gu = True
+
+                    if gu_i>0:
+                        gu_i -= 1
+                        money_now += sui_i
+                    pos_x = 0
+                    pos_y = 0
+                    f_gu = False
